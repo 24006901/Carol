@@ -1,0 +1,23 @@
+package carol;
+
+import java.util.Scanner;
+public class Carol{
+    public static void main(String args []){// print my main method
+        Scanner murendi= new Scanner(System.in);
+        double A,P,I,N;
+         System.out.println("enter the principle interest");
+         P=murendi.nextDouble();
+         System.out.println("enter the period");
+         N=murendi.nextDouble();
+         System.out.println("enter the annual interest");
+         I=murendi.nextDouble();
+         
+         A=P*Math.pow((1+I),N);
+         System.out.println("find the amount"+A);
+         
+
+         
+         
+    }
+    
+}
